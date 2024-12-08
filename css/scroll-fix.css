@@ -1,0 +1,12 @@
+/* Fix for scrolling issues */
+body.menu-show {
+    overflow-y: auto !important;
+    position: static !important;
+    height: auto !important;
+    width: auto !important;
+}
+
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
